@@ -11,7 +11,7 @@ import torch
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # model = YOLO("../YOLOv8-weights/best.pt")
-# model = YOLO("../YOLOv9-weights/yolov9n.pt")
+
 # model = YOLO("../YOLOv8-weights/yolov8l.pt")
 model = YOLO("../YOLOv8-weights/yolov8n.pt")
 
